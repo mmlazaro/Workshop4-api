@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PlanetComponent } from './planet/planet.component';
 import { MatCardModule } from '@angular/material/card';
-
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,6 +16,7 @@ import { MatCardModule } from '@angular/material/card';
     BrowserModule,
     BrowserAnimationsModule,
     MatCardModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
